@@ -1,13 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-
-let num = 1;
-
-let a = {1: "이름", 2: "나이", 3: "생년월일"};
-
-let b = {...a, 4: "휴대폰번호"};
-
-
+import Header from './components/Header';
 
 
 const postList =[
@@ -26,7 +18,7 @@ console.log (post);
 function App() {
   return (
     <div>
-      <div>숫자:{num}</div>
+      <Header/>
       {post.map((i) => (
       <div>
         <h1>{i.id}</h1>, 
