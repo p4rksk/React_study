@@ -20,8 +20,6 @@ function App() {
         <Route path="/list" element={<List />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/loginComplete" element={<LoginComplete />}/>
-
-
       </Routes>
     </BrowserRouter>
   );

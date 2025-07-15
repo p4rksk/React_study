@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Post from "./Post";
 
 function Home(props) {
   const navigate = useNavigate();
@@ -10,8 +11,7 @@ function Home(props) {
 
   return (
     <div>
-      <h1>Home</h1>
-      <button onClick={moveAbout}>소개페이지이동</button>
+      <Post/>
     </div>
   );
 }
